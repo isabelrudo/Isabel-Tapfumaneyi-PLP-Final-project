@@ -1,0 +1,220 @@
+/* Styles for header and navigation */
+header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Styles for hero section */
+  .hero {
+    background-image: url("../2ROnline\ Fashions.HTML/.featured-products");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  /* Styles for featured products section */
+  .featured-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 0;
+  }
+  
+  .product {
+    margin: 20px;
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .product img {
+    width: 50%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .product h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .product p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #777;
+  }
+  
+  /* Styles for footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .carousel-item {
+    height: 500px;
+  }
+  
+  .carousel-item img {
+    height: 500px;
+    object-fit: cover;
+  }
+  
+  /* Styling for the Shop page */
+.shop-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px auto;
+    max-width: 1200px;
+  }
+  
+  .shop-item {
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 20px;
+    width: calc(33.33% - 40px);
+  }
+  
+  .shop-item img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  
+  .shop-item h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .shop-item p {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  
+  .shop-item button {
+    background-color: #0066cc;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .shop-item button:hover {
+    background-color: #0052a3;
+  }
+  
+
+
+  /* Styling for the carousel */
+.carousel-item {
+    height: 500px;
+  }
+  
+  .carousel-item img {
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Styling for the caption */
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+  }
+  
+  .carousel-caption h1 {
+    font-size: 4rem;
+  }
+  
+  .carousel-caption p {
+    font-size: 1.5rem;
+  }
+  
+  /* Styling for the carousel controls */
+  .carousel-control-prev,
+  .carousel-control-next {
+    height: 50px;
+    width: 50px;
+    z-index: 10;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    height: 50px;
+    width: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+  }
+  
+  .carousel-control-prev-icon:before,
+  .carousel-control-next-icon:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-style: solid;
+    border-width: 0 3px 3px 0;
+    padding: 6px;
+  }
+  
+  .carousel-control-prev-icon:before {
+    transform: translate(-50%, -50%) rotate(135deg);
+  }
+  
+  .carousel-control-next-icon:before {
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+  
